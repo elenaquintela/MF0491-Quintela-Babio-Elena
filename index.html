@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/javascript.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
-    <title>Examen JS</title>
-  </head>
-  <body>
 
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/javascript.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Examen JS</title>
+</head>
+
+<body>
+  <div class="container ej-1">
+    <h1>Primer ejercicio</h1>
+    <form id="myForm">
+      <label for="motor">Tipo de motor</label>
+      <select name="motor" class="motor">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="msg"></div>
+  </div>
+  <div class="container ej-2">
+    <h1>Segundo ejercicio</h1>
+    <form id="myForm2">
+      <label for="number">Introduce un número<input type="number" class="number" placeholder="0"></label>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="msg2"></div>
+  </div>
+  <div class="container ej-3">
+    <h1>Tercer ejercicio</h1>
+    <button class="btn3">Crear párrafo</button>
+  </div>
+  <div class="container ej-4">
+    <h1>Cuarto ejercicio</h1>
+    <form id="myForm4">
+      <input type="number" class="base" placeholder="Base">
+      <input type="number" class="altura" placeholder="Altura">
+      <button type="submit">Calcular</button>
+    </form>
+    <div class="msg4"></div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
