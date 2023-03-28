@@ -35,7 +35,6 @@ document.querySelector('#myForm').addEventListener('submit', (event) => {
   dimeTipoMotor()
 })
 
-
 // Segundo ejercicio
 
 function esImpar () {
