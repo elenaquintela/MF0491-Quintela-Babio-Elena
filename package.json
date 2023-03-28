@@ -1,0 +1,14 @@
+{
+  "name": "curso-mf0491-quinuquintela-babio-elenandefinedtela-babio-elena",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  }
+}
